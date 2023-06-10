@@ -64,9 +64,9 @@ Vagrant.configure(2) do |config|
   if ansible_local_provision
     config.vm.provision "ansible_local" do |ansible|
       ansible.compatibility_mode = "2.0"
-      ansible.galaxy_role_file = "playbooks/roles/requirements.yml"
-      ansible.galaxy_roles_path = "playbooks/roles"
-      ansible.playbook = "playbooks/playbook.yml"
+      ansible.galaxy_role_file = "roles/requirements.yml"
+      ansible.galaxy_roles_path = "roles"
+      ansible.playbook = "playbook.yml"
       ansible.verbose = "vv"
     end
   end
