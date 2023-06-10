@@ -1,0 +1,23 @@
+- name: vagrant01
+  cpus: 1
+  distro: rhel
+  family: redhat
+  gui: false
+  box: generic/rhel7
+  ip_addr: 192.168.56.5
+  memory: "1024"
+  no_share: false
+  app_port: "80"
+  forwarded_port: "8005"
+
+- name: vagrant02
+  cpus: 1
+  distro: rhel
+  family: redhat
+  gui: false
+  box: generic/rhel8
+  ip_addr: 192.168.56.6
+  memory: "1024"
+  no_share: false
+  app_port: "80"
+  forwarded_port: "8161"
