@@ -1,2 +1,4 @@
 ---
-myvar: myval
+group_myvar: group_myval
+
+...
