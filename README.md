@@ -36,6 +36,6 @@ Details about Topic 2
 
 ## Resources
 
-- [Ansible User Guide](https://docs.ansible.com/ansible/2.8/user_guide/index.html) - This guide covers how to work with Ansible, including using the command line, working with inventory, and writing playbooks.
+- [Ansible User Guide](https://docs.ansible.com/ansible/2.8/user_guide/index.html)
 - [Vagrant Advanced Examples](https://ctrlnotes.com/vagrant-advanced-examples/#-insert-custom-ssh-public-key-to-the-vm)
 - [Ansible tips and tricks | Sample Ansible setup | Sample directory layout](https://docs.ansible.com/ansible/latest/tips_tricks/sample_setup.html#id1)
