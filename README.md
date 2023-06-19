@@ -32,9 +32,11 @@ tasks/                    # task files included from playbooks
 ansible test -a "date"
 ```
 
-## Topic 1
+## Installing roles
 
-Details about Topic 1
+```
+ansible-galaxy install --roles-path . -r requirements.yml
+```
 
 ## Topic 2
 
