@@ -1,11 +1,9 @@
 Vagrant.require_version ">= 2.0.0"
-# Require JSON module
-
 require 'yaml'
 
 ansible_local_provision = false
 
-# Read JSON file with config details
+# Read YAML file with config details
 f = YAML.load_file(File.join(File.dirname(__FILE__), 'machines.yml'))
 
 # Local PATH_SRC for mounting
