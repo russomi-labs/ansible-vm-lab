@@ -26,6 +26,12 @@ tasks/                    # task files included from playbooks
     webservers-extra.yml  # <-- avoids confusing playbook with task files
 ```
 
+## Testing inventory with ad-hoc commands
+
+```
+ansible test -a "date"
+```
+
 ## Topic 1
 
 Details about Topic 1
