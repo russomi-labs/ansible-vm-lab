@@ -45,3 +45,4 @@ Details about Topic 2
 - [Ansible User Guide](https://docs.ansible.com/ansible/2.8/user_guide/index.html)
 - [Vagrant Advanced Examples](https://ctrlnotes.com/vagrant-advanced-examples/#-insert-custom-ssh-public-key-to-the-vm)
 - [Ansible tips and tricks | Sample Ansible setup | Sample directory layout](https://docs.ansible.com/ansible/latest/tips_tricks/sample_setup.html#id1)
+- [Red Hat Enterprise Linux (RHEL) System Roles](https://access.redhat.com/articles/3050101)
