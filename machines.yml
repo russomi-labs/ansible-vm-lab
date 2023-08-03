@@ -3,7 +3,7 @@
   distro: rhel
   family: redhat
   gui: false
-  box: generic/rhel7
+  box: generic/rhel8
   ip_addr: 192.168.56.5
   memory: "1024"
   no_share: true
