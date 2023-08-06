@@ -4,7 +4,7 @@ Details about a ansible-vm-lab
 
 ## Sample directory layout
 
-```
+```bash
 production                # inventory file for production servers
 staging                   # inventory file for staging environment
 
@@ -28,13 +28,13 @@ tasks/                    # task files included from playbooks
 
 ## Testing inventory with ad-hoc commands
 
-```
+```bash
 ansible test -a "date"
 ```
 
 ## Installing roles
 
-```
+```bash
 ansible-galaxy install --roles-path . -r requirements.yml
 ```
 
