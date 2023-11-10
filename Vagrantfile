@@ -46,7 +46,10 @@ Vagrant.configure(2) do |config|
     config.vm.define g['name'] do |s|
       s.vm.box = g['box']
       s.vm.hostname = g['name']
-      s.vm.network 'private_network', ip: g['ip_addr']
+
+      if g['ip_addr']
+        s.vm.network 'private_network', ip: g['ip_addr']
+      end
 
       if g['forwarded_port'] && g['app_port']
         s.vm.network :forwarded_port,
